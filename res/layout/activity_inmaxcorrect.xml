@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+    
+    <ImageView
+        android:id="@+id/yes"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/yes" />
+
+    <ImageView
+        android:id="@+id/yesmessage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/yes"        
+        android:src="@drawable/maxyesmessage" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/ok"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"        
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/smallbutton" />
+    
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"        
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ok" />
+
+   
+</RelativeLayout>

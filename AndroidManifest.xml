@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ginger.conquertiger"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:debuggable="false">
+
+        <activity android:name="com.ginger.conquertiger.MainActivity"
+            android:label="@string/app_name">            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.ginger.conquertiger.ExamActivity">
+        </activity>
+
+        <activity android:name="com.ginger.conquertiger.CorrectActivity">
+        </activity>
+
+        <activity android:name="com.ginger.conquertiger.ProblemActivity">
+        </activity>        
+        
+        <activity android:name="com.ginger.conquertiger.WrongActivity">
+        </activity>
+        
+        <activity android:name="com.ginger.conquertiger.DatabaseHelper">
+        </activity>
+        
+</application>
+
+</manifest>
+
+
